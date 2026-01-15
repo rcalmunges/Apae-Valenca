@@ -88,4 +88,4 @@ Implementação de um sistema de `Audit Logs` que rastreia quem criou, editou ou
 
 Desenvolvido com foco em excelência técnica e impacto social.
 
-**[Seu Nome/GitHub]** - *Full Stack Developer*
+**[Robson Calmunges/GitHub]** - *Full Stack Developer*
