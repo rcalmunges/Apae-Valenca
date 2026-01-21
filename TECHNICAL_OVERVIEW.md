@@ -8,8 +8,8 @@ Este documento serve como um guia para desenvolvedores e recrutadores entenderem
 ## 1. Gerenciamento de Estado e Performance (React)
 
 ### Context API
-Utilizamos a Context API para evitar *Prop Drilling* em estados globais essenciais.
-- **`ToastContext`:** Sistema de notificações global. Permite disparar feedbacks visuais (`success`, `error`) de qualquer componente sem acoplamento.
+Utiliei a Context API para evitar *Prop Drilling* em estados globais essenciais.
+- **`ToastContext`:** Sistema de notificações global. Disparar feedbacks visuais (`success`, `error`) de qualquer componente sem acoplamento.
 - **`DonationContext`:** Controla o modal de doação que pode ser acionado de qualquer ponto da aplicação (Header, Footer, CTA).
 
 ### Otimização de Renderização
@@ -21,7 +21,7 @@ Utilizamos a Context API para evitar *Prop Drilling* em estados globais essencia
 ## 2. Padrões de Projeto e Arquitetura
 
 ### Componentização
-Adotamos o padrão de componentes "burros" (apresentação) e "inteligentes" (contêineres de lógica), embora com o uso de Hooks, essa linha seja tênue.
+Adotei o padrão de componentes "burros" (apresentação) e "inteligentes" (contêineres de lógica), embora com o uso de Hooks, essa linha seja tênue.
 - **Componentes Atômicos:** `WhatsAppButton`, `PageLoader`, `SEO`.
 - **Componentes Compostos:** `AdminModal` (que gerencia formulários complexos dinamicamente baseado em props).
 
@@ -60,7 +60,7 @@ Uma das *features* mais complexas é a geração de PDFs no frontend sem necessi
 
 ## 5. Qualidade de Código (TypeScript)
 
-O projeto utiliza TypeScript em modo estrito.
+Utilizei no projeto TypeScript em modo estrito.
 - **Interfaces:** Definição clara de modelos de dados (`UserProfile`, `Transaction`, `Schedule`) no arquivo `types.ts`.
 - **Tipagem de Props:** Todos os componentes React possuem interfaces de Props definidas, prevenindo erros de tipagem durante o desenvolvimento.
 - **Null Safety:** Tratamento extensivo de valores `null` ou `undefined` vindos da API.
